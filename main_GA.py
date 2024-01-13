@@ -3,7 +3,7 @@ import pygad
 import random
 import time
 
-from environment.Maze import Maze
+from maze_environment.Maze import Maze
 # from utils.plot import plot_population
 
 '''
@@ -15,7 +15,7 @@ seed = int(seed)
 
 def main():
 
-    ### Creating environment ###
+    ### Creating maze_environment ###
 
     maze_seed = 883695529
     maze_env = Maze(height=8, width=8)
